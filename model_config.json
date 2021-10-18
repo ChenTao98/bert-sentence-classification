@@ -1,0 +1,30 @@
+{
+    "bert":{
+        "model_path":"/home/dell/chentao/datamount/model/bert-base-uncased",
+        "cls_token":["[CLS]"],
+        "sep_token":["[SEP]"],
+        "pad_token_id":0,
+        "hidden_dim":768
+    },
+    "roberta":{
+        "model_path":"/home/dell/chentao/datamount/model/roberta-base",
+        "cls_token":["<s>"],
+        "sep_token":["</s>"],
+        "pad_token_id":1,
+        "hidden_dim":768
+    },
+    "albert":{
+        "model_path":"/home/dell/chentao/datamount/model/albert-base-v2",
+        "cls_token":["[CLS]"],
+        "sep_token":["[SEP]"],
+        "pad_token_id":0,
+        "hidden_dim":768
+    },
+    "gpt2":{
+        "model_path":"/home/dell/chentao/datamount/model/gpt2",
+        "cls_token":[],
+        "sep_token":[],
+        "pad_token_id":50256,
+        "hidden_dim":768
+    }
+}
